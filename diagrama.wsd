@@ -1,0 +1,13 @@
+@startuml
+
+class usuario{
+    -nombre: String
+    -edad: int
+    +usoVariables()
+    +main(args: String[]): void
+    +setNombre(nombre: String): void
+    +getNombre(): String
+
+
+}
+@enduml
